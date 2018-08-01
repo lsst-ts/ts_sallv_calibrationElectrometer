@@ -5,45 +5,45 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="DataTypes" Type="Folder">
 		<Item Name=".ctl" Type="VI" URL="../DataTypes/.ctl"/>
-		<Item Name="LoopTime_ms.ctl" Type="VI" URL="../DataTypes/LoopTime_ms.ctl"/>
-		<Item Name="Timestamp.ctl" Type="VI" URL="../DataTypes/Timestamp.ctl"/>
+		<Item Name="DetailedStates.ctl" Type="VI" URL="../DataTypes/DetailedStates.ctl"/>
+		<Item Name="SummaryStates.ctl" Type="VI" URL="../DataTypes/SummaryStates.ctl"/>
 		<Item Name="ackcmd.ctl" Type="VI" URL="../DataTypes/ackcmd.ctl"/>
 		<Item Name="command.ctl" Type="VI" URL="../DataTypes/command.ctl"/>
-		<Item Name="command_PerformZeroCalib.ctl" Type="VI" URL="../DataTypes/command_PerformZeroCalib.ctl"/>
-		<Item Name="command_Power.ctl" Type="VI" URL="../DataTypes/command_Power.ctl"/>
-		<Item Name="command_SetDigitalFilter.ctl" Type="VI" URL="../DataTypes/command_SetDigitalFilter.ctl"/>
-		<Item Name="command_SetIntegrationTime.ctl" Type="VI" URL="../DataTypes/command_SetIntegrationTime.ctl"/>
-		<Item Name="command_SetMode.ctl" Type="VI" URL="../DataTypes/command_SetMode.ctl"/>
-		<Item Name="command_SetRange.ctl" Type="VI" URL="../DataTypes/command_SetRange.ctl"/>
-		<Item Name="command_StartScan.ctl" Type="VI" URL="../DataTypes/command_StartScan.ctl"/>
-		<Item Name="command_StartScanDt.ctl" Type="VI" URL="../DataTypes/command_StartScanDt.ctl"/>
-		<Item Name="command_StartScanReachIntensity.ctl" Type="VI" URL="../DataTypes/command_StartScanReachIntensity.ctl"/>
-		<Item Name="command_StopScan.ctl" Type="VI" URL="../DataTypes/command_StopScan.ctl"/>
 		<Item Name="command_disable.ctl" Type="VI" URL="../DataTypes/command_disable.ctl"/>
 		<Item Name="command_enable.ctl" Type="VI" URL="../DataTypes/command_enable.ctl"/>
-		<Item Name="command_exitControl.ctl" Type="VI" URL="../DataTypes/command_exitControl.ctl"/>
+		<Item Name="command_performZeroCalib.ctl" Type="VI" URL="../DataTypes/command_performZeroCalib.ctl"/>
+		<Item Name="command_power.ctl" Type="VI" URL="../DataTypes/command_power.ctl"/>
+		<Item Name="command_setDigitalFilter.ctl" Type="VI" URL="../DataTypes/command_setDigitalFilter.ctl"/>
+		<Item Name="command_setIntegrationTime.ctl" Type="VI" URL="../DataTypes/command_setIntegrationTime.ctl"/>
+		<Item Name="command_setMode.ctl" Type="VI" URL="../DataTypes/command_setMode.ctl"/>
+		<Item Name="command_setRange.ctl" Type="VI" URL="../DataTypes/command_setRange.ctl"/>
 		<Item Name="command_standby.ctl" Type="VI" URL="../DataTypes/command_standby.ctl"/>
 		<Item Name="command_start.ctl" Type="VI" URL="../DataTypes/command_start.ctl"/>
+		<Item Name="command_startScan.ctl" Type="VI" URL="../DataTypes/command_startScan.ctl"/>
+		<Item Name="command_startScanDt.ctl" Type="VI" URL="../DataTypes/command_startScanDt.ctl"/>
+		<Item Name="command_startScanReachIntensity.ctl" Type="VI" URL="../DataTypes/command_startScanReachIntensity.ctl"/>
+		<Item Name="command_stopScan.ctl" Type="VI" URL="../DataTypes/command_stopScan.ctl"/>
 		<Item Name="logevent.ctl" Type="VI" URL="../DataTypes/logevent.ctl"/>
-		<Item Name="logevent_AppliedSettingsMatchStart.ctl" Type="VI" URL="../DataTypes/logevent_AppliedSettingsMatchStart.ctl"/>
-		<Item Name="logevent_DetailedState.ctl" Type="VI" URL="../DataTypes/logevent_DetailedState.ctl"/>
-		<Item Name="logevent_ErrorCode.ctl" Type="VI" URL="../DataTypes/logevent_ErrorCode.ctl"/>
-		<Item Name="logevent_Heartbeat.ctl" Type="VI" URL="../DataTypes/logevent_Heartbeat.ctl"/>
-		<Item Name="logevent_IntegrationTime.ctl" Type="VI" URL="../DataTypes/logevent_IntegrationTime.ctl"/>
-		<Item Name="logevent_Intensity.ctl" Type="VI" URL="../DataTypes/logevent_Intensity.ctl"/>
-		<Item Name="logevent_IntensityReq.ctl" Type="VI" URL="../DataTypes/logevent_IntensityReq.ctl"/>
-		<Item Name="logevent_InternalCommand.ctl" Type="VI" URL="../DataTypes/logevent_InternalCommand.ctl"/>
-		<Item Name="logevent_LargeFileObjectAvailable.ctl" Type="VI" URL="../DataTypes/logevent_LargeFileObjectAvailable.ctl"/>
-		<Item Name="logevent_LoopTimeOutOfRange.ctl" Type="VI" URL="../DataTypes/logevent_LoopTimeOutOfRange.ctl"/>
-		<Item Name="logevent_ReadingOutOfLimit.ctl" Type="VI" URL="../DataTypes/logevent_ReadingOutOfLimit.ctl"/>
-		<Item Name="logevent_RejectedCommand.ctl" Type="VI" URL="../DataTypes/logevent_RejectedCommand.ctl"/>
-		<Item Name="logevent_SettingVersions.ctl" Type="VI" URL="../DataTypes/logevent_SettingVersions.ctl"/>
-		<Item Name="logevent_SettingsApplied_ReadingSettings.ctl" Type="VI" URL="../DataTypes/logevent_SettingsApplied_ReadingSettings.ctl"/>
-		<Item Name="logevent_SettingsApplied_SerialConfiguration.ctl" Type="VI" URL="../DataTypes/logevent_SettingsApplied_SerialConfiguration.ctl"/>
-		<Item Name="logevent_SummaryState.ctl" Type="VI" URL="../DataTypes/logevent_SummaryState.ctl"/>
+		<Item Name="logevent_appliedSettingsMatchStart.ctl" Type="VI" URL="../DataTypes/logevent_appliedSettingsMatchStart.ctl"/>
+		<Item Name="logevent_detailedState.ctl" Type="VI" URL="../DataTypes/logevent_detailedState.ctl"/>
 		<Item Name="logevent_digitalFilterChange.ctl" Type="VI" URL="../DataTypes/logevent_digitalFilterChange.ctl"/>
+		<Item Name="logevent_errorCode.ctl" Type="VI" URL="../DataTypes/logevent_errorCode.ctl"/>
+		<Item Name="logevent_heartbeat.ctl" Type="VI" URL="../DataTypes/logevent_heartbeat.ctl"/>
+		<Item Name="logevent_integrationTime.ctl" Type="VI" URL="../DataTypes/logevent_integrationTime.ctl"/>
+		<Item Name="logevent_intensity.ctl" Type="VI" URL="../DataTypes/logevent_intensity.ctl"/>
+		<Item Name="logevent_internalCommand.ctl" Type="VI" URL="../DataTypes/logevent_internalCommand.ctl"/>
+		<Item Name="logevent_largeFileObjectAvailable.ctl" Type="VI" URL="../DataTypes/logevent_largeFileObjectAvailable.ctl"/>
+		<Item Name="logevent_loopTimeOutOfRange.ctl" Type="VI" URL="../DataTypes/logevent_loopTimeOutOfRange.ctl"/>
 		<Item Name="logevent_measureRange.ctl" Type="VI" URL="../DataTypes/logevent_measureRange.ctl"/>
 		<Item Name="logevent_measureType.ctl" Type="VI" URL="../DataTypes/logevent_measureType.ctl"/>
+		<Item Name="logevent_readingOutOfLimit.ctl" Type="VI" URL="../DataTypes/logevent_readingOutOfLimit.ctl"/>
+		<Item Name="logevent_rejectedCommand.ctl" Type="VI" URL="../DataTypes/logevent_rejectedCommand.ctl"/>
+		<Item Name="logevent_settingVersions.ctl" Type="VI" URL="../DataTypes/logevent_settingVersions.ctl"/>
+		<Item Name="logevent_settingsAppliedReadSets.ctl" Type="VI" URL="../DataTypes/logevent_settingsAppliedReadSets.ctl"/>
+		<Item Name="logevent_settingsAppliedSerConf.ctl" Type="VI" URL="../DataTypes/logevent_settingsAppliedSerConf.ctl"/>
+		<Item Name="logevent_summaryState.ctl" Type="VI" URL="../DataTypes/logevent_summaryState.ctl"/>
+		<Item Name="loopTime.ctl" Type="VI" URL="../DataTypes/loopTime.ctl"/>
+		<Item Name="timestamp.ctl" Type="VI" URL="../DataTypes/timestamp.ctl"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
 		<Item Name="ErrorConverter(ErrCodeorStatus).vi" Type="VI" URL="../subvi/ErrorConverter(ErrCodeorStatus).vi"/>
@@ -51,319 +51,301 @@
 	<Item Name="SALLV_calibrationElectrometer.so" Type="Document" URL="../SALLV_calibrationElectrometer.so"/>
 	<Item Name="calibrationElectrometer_Connect.vi" Type="VI" URL="../VIs/calibrationElectrometer_Connect.vi"/>
 	<Item Name="calibrationElectrometer_Release.vi" Type="VI" URL="../VIs/calibrationElectrometer_Release.vi"/>
-	<Item Name="calibrationElectrometer_acceptCommand_PerformZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_PerformZeroCalib.vi"/>
-	<Item Name="calibrationElectrometer_acceptCommand_Power.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_Power.vi"/>
-	<Item Name="calibrationElectrometer_acceptCommand_SetDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_SetDigitalFilter.vi"/>
-	<Item Name="calibrationElectrometer_acceptCommand_SetIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_SetIntegrationTime.vi"/>
-	<Item Name="calibrationElectrometer_acceptCommand_SetMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_SetMode.vi"/>
-	<Item Name="calibrationElectrometer_acceptCommand_SetRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_SetRange.vi"/>
-	<Item Name="calibrationElectrometer_acceptCommand_StartScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_StartScan.vi"/>
-	<Item Name="calibrationElectrometer_acceptCommand_StartScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_StartScanDt.vi"/>
-	<Item Name="calibrationElectrometer_acceptCommand_StartScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_StartScanReachIntensity.vi"/>
-	<Item Name="calibrationElectrometer_acceptCommand_StopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_StopScan.vi"/>
 	<Item Name="calibrationElectrometer_acceptCommand_disable.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_disable.vi"/>
 	<Item Name="calibrationElectrometer_acceptCommand_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_enable.vi"/>
-	<Item Name="calibrationElectrometer_acceptCommand_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_exitControl.vi"/>
+	<Item Name="calibrationElectrometer_acceptCommand_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_performZeroCalib.vi"/>
+	<Item Name="calibrationElectrometer_acceptCommand_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_power.vi"/>
+	<Item Name="calibrationElectrometer_acceptCommand_setDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_setDigitalFilter.vi"/>
+	<Item Name="calibrationElectrometer_acceptCommand_setIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_setIntegrationTime.vi"/>
+	<Item Name="calibrationElectrometer_acceptCommand_setMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_setMode.vi"/>
+	<Item Name="calibrationElectrometer_acceptCommand_setRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_setRange.vi"/>
 	<Item Name="calibrationElectrometer_acceptCommand_standby.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_standby.vi"/>
 	<Item Name="calibrationElectrometer_acceptCommand_start.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_start.vi"/>
-	<Item Name="calibrationElectrometer_ackCommand_PerformZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_PerformZeroCalib.vi"/>
-	<Item Name="calibrationElectrometer_ackCommand_Power.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_Power.vi"/>
-	<Item Name="calibrationElectrometer_ackCommand_SetDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_SetDigitalFilter.vi"/>
-	<Item Name="calibrationElectrometer_ackCommand_SetIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_SetIntegrationTime.vi"/>
-	<Item Name="calibrationElectrometer_ackCommand_SetMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_SetMode.vi"/>
-	<Item Name="calibrationElectrometer_ackCommand_SetRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_SetRange.vi"/>
-	<Item Name="calibrationElectrometer_ackCommand_StartScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_StartScan.vi"/>
-	<Item Name="calibrationElectrometer_ackCommand_StartScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_StartScanDt.vi"/>
-	<Item Name="calibrationElectrometer_ackCommand_StartScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_StartScanReachIntensity.vi"/>
-	<Item Name="calibrationElectrometer_ackCommand_StopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_StopScan.vi"/>
+	<Item Name="calibrationElectrometer_acceptCommand_startScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_startScan.vi"/>
+	<Item Name="calibrationElectrometer_acceptCommand_startScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_startScanDt.vi"/>
+	<Item Name="calibrationElectrometer_acceptCommand_startScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_startScanReachIntensity.vi"/>
+	<Item Name="calibrationElectrometer_acceptCommand_stopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_stopScan.vi"/>
 	<Item Name="calibrationElectrometer_ackCommand_disable.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_disable.vi"/>
 	<Item Name="calibrationElectrometer_ackCommand_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_enable.vi"/>
-	<Item Name="calibrationElectrometer_ackCommand_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_exitControl.vi"/>
+	<Item Name="calibrationElectrometer_ackCommand_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_performZeroCalib.vi"/>
+	<Item Name="calibrationElectrometer_ackCommand_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_power.vi"/>
+	<Item Name="calibrationElectrometer_ackCommand_setDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_setDigitalFilter.vi"/>
+	<Item Name="calibrationElectrometer_ackCommand_setIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_setIntegrationTime.vi"/>
+	<Item Name="calibrationElectrometer_ackCommand_setMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_setMode.vi"/>
+	<Item Name="calibrationElectrometer_ackCommand_setRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_setRange.vi"/>
 	<Item Name="calibrationElectrometer_ackCommand_standby.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_standby.vi"/>
 	<Item Name="calibrationElectrometer_ackCommand_start.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_start.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_LoopTimems.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_LoopTimems.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_Timestamp.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_Timestamp.vi"/>
+	<Item Name="calibrationElectrometer_ackCommand_startScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_startScan.vi"/>
+	<Item Name="calibrationElectrometer_ackCommand_startScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_startScanDt.vi"/>
+	<Item Name="calibrationElectrometer_ackCommand_startScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_startScanReachIntensity.vi"/>
+	<Item Name="calibrationElectrometer_ackCommand_stopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_stopScan.vi"/>
 	<Item Name="calibrationElectrometer_cancelCallback_ackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_ackcmd.vi"/>
 	<Item Name="calibrationElectrometer_cancelCallback_command_.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_PerformZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_PerformZeroCalib.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_PerformZeroCalibackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_PerformZeroCalibackcmd.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_Power.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_Power.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_Powerackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_Powerackcmd.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_SetDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_SetDigitalFilter.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_SetDigitalFilterackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_SetDigitalFilterackcmd.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_SetIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_SetIntegrationTime.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_SetIntegrationTimeackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_SetIntegrationTimeackcmd.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_SetMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_SetMode.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_SetModeackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_SetModeackcmd.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_SetRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_SetRange.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_SetRangeackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_SetRangeackcmd.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_StartScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_StartScan.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_StartScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_StartScanDt.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_StartScanDtackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_StartScanDtackcmd.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_StartScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_StartScanReachIntensity.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_StartScanReachIntensityackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_StartScanReachIntensityackcmd.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_StartScanackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_StartScanackcmd.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_StopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_StopScan.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_StopScanackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_StopScanackcmd.vi"/>
 	<Item Name="calibrationElectrometer_cancelCallback_command_disable.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_disable.vi"/>
 	<Item Name="calibrationElectrometer_cancelCallback_command_disableackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_disableackcmd.vi"/>
 	<Item Name="calibrationElectrometer_cancelCallback_command_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_enable.vi"/>
 	<Item Name="calibrationElectrometer_cancelCallback_command_enableackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_enableackcmd.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_exitControl.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_command_exitControlackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_exitControlackcmd.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_performZeroCalib.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_performZeroCalibackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_performZeroCalibackcmd.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_power.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_powerackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_powerackcmd.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_setDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_setDigitalFilter.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_setDigitalFilterackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_setDigitalFilterackcmd.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_setIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_setIntegrationTime.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_setIntegrationTimeackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_setIntegrationTimeackcmd.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_setMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_setMode.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_setModeackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_setModeackcmd.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_setRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_setRange.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_setRangeackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_setRangeackcmd.vi"/>
 	<Item Name="calibrationElectrometer_cancelCallback_command_standby.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_standby.vi"/>
 	<Item Name="calibrationElectrometer_cancelCallback_command_standbyackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_standbyackcmd.vi"/>
 	<Item Name="calibrationElectrometer_cancelCallback_command_start.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_start.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_startScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_startScan.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_startScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_startScanDt.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_startScanDtackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_startScanDtackcmd.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_startScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_startScanReachIntensity.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_startScanReachIntensityackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_startScanReachIntensityackcmd.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_startScanackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_startScanackcmd.vi"/>
 	<Item Name="calibrationElectrometer_cancelCallback_command_startackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_startackcmd.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_stopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_stopScan.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_stopScanackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_stopScanackcmd.vi"/>
 	<Item Name="calibrationElectrometer_cancelCallback_logEvent_.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_logEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_AppliedSettingsMatchStart.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_logEvent_DetailedState.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_DetailedState.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_logEvent_ErrorCode.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_ErrorCode.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_logEvent_Heartbeat.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_Heartbeat.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_logEvent_IntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_IntegrationTime.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_logEvent_Intensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_Intensity.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_logEvent_IntensityReq.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_IntensityReq.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_logEvent_InternalCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_InternalCommand.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_logEvent_LargeFileObjectAvailable.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_LargeFileObjectAvailable.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_logEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_LoopTimeOutOfRange.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_logEvent_ReadingOutOfLimit.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_ReadingOutOfLimit.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_RejectedCommand.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_SettingVersions.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_logEvent_SettingsAppliedReadingSettings.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_SettingsAppliedReadingSettings.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_logEvent_SettingsAppliedSerialConfiguration.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_SettingsAppliedSerialConfiguration.vi"/>
-	<Item Name="calibrationElectrometer_cancelCallback_logEvent_SummaryState.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_SummaryState.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_logEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_appliedSettingsMatchStart.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_logEvent_detailedState.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_detailedState.vi"/>
 	<Item Name="calibrationElectrometer_cancelCallback_logEvent_digitalFilterChange.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_digitalFilterChange.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_logEvent_errorCode.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_errorCode.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_logEvent_heartbeat.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_heartbeat.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_logEvent_integrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_integrationTime.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_logEvent_intensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_intensity.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_logEvent_internalCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_internalCommand.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_logEvent_largeFileObjectAvailable.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_largeFileObjectAvailable.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_logEvent_loopTimeOutOfRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_loopTimeOutOfRange.vi"/>
 	<Item Name="calibrationElectrometer_cancelCallback_logEvent_measureRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_measureRange.vi"/>
 	<Item Name="calibrationElectrometer_cancelCallback_logEvent_measureType.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_measureType.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_logEvent_readingOutOfLimit.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_readingOutOfLimit.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_logEvent_rejectedCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_rejectedCommand.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_logEvent_settingVersions.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_settingVersions.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_logEvent_settingsAppliedReadSets.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_settingsAppliedReadSets.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_logEvent_settingsAppliedSerConf.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_settingsAppliedSerConf.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_logEvent_summaryState.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_logEvent_summaryState.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_loopTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_loopTime.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_timestamp.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_timestamp.vi"/>
 	<Item Name="calibrationElectrometer_checkCallbacks.vi" Type="VI" URL="../VIs/calibrationElectrometer_checkCallbacks.vi"/>
-	<Item Name="calibrationElectrometer_flushSamplesEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_AppliedSettingsMatchStart.vi"/>
-	<Item Name="calibrationElectrometer_flushSamplesEvent_DetailedState.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_DetailedState.vi"/>
-	<Item Name="calibrationElectrometer_flushSamplesEvent_ErrorCode.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_ErrorCode.vi"/>
-	<Item Name="calibrationElectrometer_flushSamplesEvent_Heartbeat.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_Heartbeat.vi"/>
-	<Item Name="calibrationElectrometer_flushSamplesEvent_IntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_IntegrationTime.vi"/>
-	<Item Name="calibrationElectrometer_flushSamplesEvent_Intensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_Intensity.vi"/>
-	<Item Name="calibrationElectrometer_flushSamplesEvent_IntensityReq.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_IntensityReq.vi"/>
-	<Item Name="calibrationElectrometer_flushSamplesEvent_InternalCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_InternalCommand.vi"/>
-	<Item Name="calibrationElectrometer_flushSamplesEvent_LargeFileObjectAvailable.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_LargeFileObjectAvailable.vi"/>
-	<Item Name="calibrationElectrometer_flushSamplesEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_LoopTimeOutOfRange.vi"/>
-	<Item Name="calibrationElectrometer_flushSamplesEvent_ReadingOutOfLimit.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_ReadingOutOfLimit.vi"/>
-	<Item Name="calibrationElectrometer_flushSamplesEvent_RejectedCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_RejectedCommand.vi"/>
-	<Item Name="calibrationElectrometer_flushSamplesEvent_SettingVersions.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_SettingVersions.vi"/>
-	<Item Name="calibrationElectrometer_flushSamplesEvent_SettingsAppliedReadingSettings.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_SettingsAppliedReadingSettings.vi"/>
-	<Item Name="calibrationElectrometer_flushSamplesEvent_SettingsAppliedSerialConfiguration.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_SettingsAppliedSerialConfiguration.vi"/>
-	<Item Name="calibrationElectrometer_flushSamplesEvent_SummaryState.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_SummaryState.vi"/>
+	<Item Name="calibrationElectrometer_flushSamplesEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_appliedSettingsMatchStart.vi"/>
+	<Item Name="calibrationElectrometer_flushSamplesEvent_detailedState.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_detailedState.vi"/>
 	<Item Name="calibrationElectrometer_flushSamplesEvent_digitalFilterChange.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_digitalFilterChange.vi"/>
+	<Item Name="calibrationElectrometer_flushSamplesEvent_errorCode.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_errorCode.vi"/>
+	<Item Name="calibrationElectrometer_flushSamplesEvent_heartbeat.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_heartbeat.vi"/>
+	<Item Name="calibrationElectrometer_flushSamplesEvent_integrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_integrationTime.vi"/>
+	<Item Name="calibrationElectrometer_flushSamplesEvent_intensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_intensity.vi"/>
+	<Item Name="calibrationElectrometer_flushSamplesEvent_internalCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_internalCommand.vi"/>
+	<Item Name="calibrationElectrometer_flushSamplesEvent_largeFileObjectAvailable.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_largeFileObjectAvailable.vi"/>
+	<Item Name="calibrationElectrometer_flushSamplesEvent_loopTimeOutOfRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_loopTimeOutOfRange.vi"/>
 	<Item Name="calibrationElectrometer_flushSamplesEvent_measureRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_measureRange.vi"/>
 	<Item Name="calibrationElectrometer_flushSamplesEvent_measureType.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_measureType.vi"/>
+	<Item Name="calibrationElectrometer_flushSamplesEvent_readingOutOfLimit.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_readingOutOfLimit.vi"/>
+	<Item Name="calibrationElectrometer_flushSamplesEvent_rejectedCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_rejectedCommand.vi"/>
+	<Item Name="calibrationElectrometer_flushSamplesEvent_settingVersions.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_settingVersions.vi"/>
+	<Item Name="calibrationElectrometer_flushSamplesEvent_settingsAppliedReadSets.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_settingsAppliedReadSets.vi"/>
+	<Item Name="calibrationElectrometer_flushSamplesEvent_settingsAppliedSerConf.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_settingsAppliedSerConf.vi"/>
+	<Item Name="calibrationElectrometer_flushSamplesEvent_summaryState.vi" Type="VI" URL="../VIs/calibrationElectrometer_flushSamplesEvent_summaryState.vi"/>
 	<Item Name="calibrationElectrometer_getCurrentTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_getCurrentTime.vi"/>
-	<Item Name="calibrationElectrometer_getEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_AppliedSettingsMatchStart.vi"/>
-	<Item Name="calibrationElectrometer_getEvent_DetailedState.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_DetailedState.vi"/>
-	<Item Name="calibrationElectrometer_getEvent_ErrorCode.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_ErrorCode.vi"/>
-	<Item Name="calibrationElectrometer_getEvent_Heartbeat.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_Heartbeat.vi"/>
-	<Item Name="calibrationElectrometer_getEvent_IntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_IntegrationTime.vi"/>
-	<Item Name="calibrationElectrometer_getEvent_Intensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_Intensity.vi"/>
-	<Item Name="calibrationElectrometer_getEvent_IntensityReq.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_IntensityReq.vi"/>
-	<Item Name="calibrationElectrometer_getEvent_InternalCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_InternalCommand.vi"/>
-	<Item Name="calibrationElectrometer_getEvent_LargeFileObjectAvailable.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_LargeFileObjectAvailable.vi"/>
-	<Item Name="calibrationElectrometer_getEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_LoopTimeOutOfRange.vi"/>
-	<Item Name="calibrationElectrometer_getEvent_ReadingOutOfLimit.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_ReadingOutOfLimit.vi"/>
-	<Item Name="calibrationElectrometer_getEvent_RejectedCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_RejectedCommand.vi"/>
-	<Item Name="calibrationElectrometer_getEvent_SettingVersions.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_SettingVersions.vi"/>
-	<Item Name="calibrationElectrometer_getEvent_SettingsAppliedReadingSettings.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_SettingsAppliedReadingSettings.vi"/>
-	<Item Name="calibrationElectrometer_getEvent_SettingsAppliedSerialConfiguration.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_SettingsAppliedSerialConfiguration.vi"/>
-	<Item Name="calibrationElectrometer_getEvent_SummaryState.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_SummaryState.vi"/>
+	<Item Name="calibrationElectrometer_getEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_appliedSettingsMatchStart.vi"/>
+	<Item Name="calibrationElectrometer_getEvent_detailedState.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_detailedState.vi"/>
 	<Item Name="calibrationElectrometer_getEvent_digitalFilterChange.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_digitalFilterChange.vi"/>
+	<Item Name="calibrationElectrometer_getEvent_errorCode.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_errorCode.vi"/>
+	<Item Name="calibrationElectrometer_getEvent_heartbeat.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_heartbeat.vi"/>
+	<Item Name="calibrationElectrometer_getEvent_integrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_integrationTime.vi"/>
+	<Item Name="calibrationElectrometer_getEvent_intensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_intensity.vi"/>
+	<Item Name="calibrationElectrometer_getEvent_internalCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_internalCommand.vi"/>
+	<Item Name="calibrationElectrometer_getEvent_largeFileObjectAvailable.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_largeFileObjectAvailable.vi"/>
+	<Item Name="calibrationElectrometer_getEvent_loopTimeOutOfRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_loopTimeOutOfRange.vi"/>
 	<Item Name="calibrationElectrometer_getEvent_measureRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_measureRange.vi"/>
 	<Item Name="calibrationElectrometer_getEvent_measureType.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_measureType.vi"/>
-	<Item Name="calibrationElectrometer_getNextSample_LoopTimems.vi" Type="VI" URL="../VIs/calibrationElectrometer_getNextSample_LoopTimems.vi"/>
-	<Item Name="calibrationElectrometer_getNextSample_Timestamp.vi" Type="VI" URL="../VIs/calibrationElectrometer_getNextSample_Timestamp.vi"/>
-	<Item Name="calibrationElectrometer_getResponse_PerformZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_PerformZeroCalib.vi"/>
-	<Item Name="calibrationElectrometer_getResponse_Power.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_Power.vi"/>
-	<Item Name="calibrationElectrometer_getResponse_SetDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_SetDigitalFilter.vi"/>
-	<Item Name="calibrationElectrometer_getResponse_SetIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_SetIntegrationTime.vi"/>
-	<Item Name="calibrationElectrometer_getResponse_SetMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_SetMode.vi"/>
-	<Item Name="calibrationElectrometer_getResponse_SetRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_SetRange.vi"/>
-	<Item Name="calibrationElectrometer_getResponse_StartScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_StartScan.vi"/>
-	<Item Name="calibrationElectrometer_getResponse_StartScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_StartScanDt.vi"/>
-	<Item Name="calibrationElectrometer_getResponse_StartScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_StartScanReachIntensity.vi"/>
-	<Item Name="calibrationElectrometer_getResponse_StopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_StopScan.vi"/>
+	<Item Name="calibrationElectrometer_getEvent_readingOutOfLimit.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_readingOutOfLimit.vi"/>
+	<Item Name="calibrationElectrometer_getEvent_rejectedCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_rejectedCommand.vi"/>
+	<Item Name="calibrationElectrometer_getEvent_settingVersions.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_settingVersions.vi"/>
+	<Item Name="calibrationElectrometer_getEvent_settingsAppliedReadSets.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_settingsAppliedReadSets.vi"/>
+	<Item Name="calibrationElectrometer_getEvent_settingsAppliedSerConf.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_settingsAppliedSerConf.vi"/>
+	<Item Name="calibrationElectrometer_getEvent_summaryState.vi" Type="VI" URL="../VIs/calibrationElectrometer_getEvent_summaryState.vi"/>
+	<Item Name="calibrationElectrometer_getNextSample_loopTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_getNextSample_loopTime.vi"/>
+	<Item Name="calibrationElectrometer_getNextSample_timestamp.vi" Type="VI" URL="../VIs/calibrationElectrometer_getNextSample_timestamp.vi"/>
 	<Item Name="calibrationElectrometer_getResponse_disable.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_disable.vi"/>
 	<Item Name="calibrationElectrometer_getResponse_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_enable.vi"/>
-	<Item Name="calibrationElectrometer_getResponse_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_exitControl.vi"/>
+	<Item Name="calibrationElectrometer_getResponse_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_performZeroCalib.vi"/>
+	<Item Name="calibrationElectrometer_getResponse_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_power.vi"/>
+	<Item Name="calibrationElectrometer_getResponse_setDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_setDigitalFilter.vi"/>
+	<Item Name="calibrationElectrometer_getResponse_setIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_setIntegrationTime.vi"/>
+	<Item Name="calibrationElectrometer_getResponse_setMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_setMode.vi"/>
+	<Item Name="calibrationElectrometer_getResponse_setRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_setRange.vi"/>
 	<Item Name="calibrationElectrometer_getResponse_standby.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_standby.vi"/>
 	<Item Name="calibrationElectrometer_getResponse_start.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_start.vi"/>
-	<Item Name="calibrationElectrometer_getSample_LoopTimems.vi" Type="VI" URL="../VIs/calibrationElectrometer_getSample_LoopTimems.vi"/>
-	<Item Name="calibrationElectrometer_getSample_Timestamp.vi" Type="VI" URL="../VIs/calibrationElectrometer_getSample_Timestamp.vi"/>
-	<Item Name="calibrationElectrometer_issueCommand_PerformZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_PerformZeroCalib.vi"/>
-	<Item Name="calibrationElectrometer_issueCommand_Power.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_Power.vi"/>
-	<Item Name="calibrationElectrometer_issueCommand_SetDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_SetDigitalFilter.vi"/>
-	<Item Name="calibrationElectrometer_issueCommand_SetIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_SetIntegrationTime.vi"/>
-	<Item Name="calibrationElectrometer_issueCommand_SetMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_SetMode.vi"/>
-	<Item Name="calibrationElectrometer_issueCommand_SetRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_SetRange.vi"/>
-	<Item Name="calibrationElectrometer_issueCommand_StartScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_StartScan.vi"/>
-	<Item Name="calibrationElectrometer_issueCommand_StartScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_StartScanDt.vi"/>
-	<Item Name="calibrationElectrometer_issueCommand_StartScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_StartScanReachIntensity.vi"/>
-	<Item Name="calibrationElectrometer_issueCommand_StopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_StopScan.vi"/>
+	<Item Name="calibrationElectrometer_getResponse_startScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_startScan.vi"/>
+	<Item Name="calibrationElectrometer_getResponse_startScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_startScanDt.vi"/>
+	<Item Name="calibrationElectrometer_getResponse_startScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_startScanReachIntensity.vi"/>
+	<Item Name="calibrationElectrometer_getResponse_stopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_stopScan.vi"/>
+	<Item Name="calibrationElectrometer_getSample_loopTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_getSample_loopTime.vi"/>
+	<Item Name="calibrationElectrometer_getSample_timestamp.vi" Type="VI" URL="../VIs/calibrationElectrometer_getSample_timestamp.vi"/>
 	<Item Name="calibrationElectrometer_issueCommand_disable.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_disable.vi"/>
 	<Item Name="calibrationElectrometer_issueCommand_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_enable.vi"/>
-	<Item Name="calibrationElectrometer_issueCommand_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_exitControl.vi"/>
+	<Item Name="calibrationElectrometer_issueCommand_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_performZeroCalib.vi"/>
+	<Item Name="calibrationElectrometer_issueCommand_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_power.vi"/>
+	<Item Name="calibrationElectrometer_issueCommand_setDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_setDigitalFilter.vi"/>
+	<Item Name="calibrationElectrometer_issueCommand_setIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_setIntegrationTime.vi"/>
+	<Item Name="calibrationElectrometer_issueCommand_setMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_setMode.vi"/>
+	<Item Name="calibrationElectrometer_issueCommand_setRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_setRange.vi"/>
 	<Item Name="calibrationElectrometer_issueCommand_standby.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_standby.vi"/>
 	<Item Name="calibrationElectrometer_issueCommand_start.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_start.vi"/>
-	<Item Name="calibrationElectrometer_logEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_AppliedSettingsMatchStart.vi"/>
-	<Item Name="calibrationElectrometer_logEvent_DetailedState.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_DetailedState.vi"/>
-	<Item Name="calibrationElectrometer_logEvent_ErrorCode.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_ErrorCode.vi"/>
-	<Item Name="calibrationElectrometer_logEvent_Heartbeat.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_Heartbeat.vi"/>
-	<Item Name="calibrationElectrometer_logEvent_IntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_IntegrationTime.vi"/>
-	<Item Name="calibrationElectrometer_logEvent_Intensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_Intensity.vi"/>
-	<Item Name="calibrationElectrometer_logEvent_IntensityReq.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_IntensityReq.vi"/>
-	<Item Name="calibrationElectrometer_logEvent_InternalCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_InternalCommand.vi"/>
-	<Item Name="calibrationElectrometer_logEvent_LargeFileObjectAvailable.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_LargeFileObjectAvailable.vi"/>
-	<Item Name="calibrationElectrometer_logEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_LoopTimeOutOfRange.vi"/>
-	<Item Name="calibrationElectrometer_logEvent_ReadingOutOfLimit.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_ReadingOutOfLimit.vi"/>
-	<Item Name="calibrationElectrometer_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_RejectedCommand.vi"/>
-	<Item Name="calibrationElectrometer_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_SettingVersions.vi"/>
-	<Item Name="calibrationElectrometer_logEvent_SettingsAppliedReadingSettings.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_SettingsAppliedReadingSettings.vi"/>
-	<Item Name="calibrationElectrometer_logEvent_SettingsAppliedSerialConfiguration.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_SettingsAppliedSerialConfiguration.vi"/>
-	<Item Name="calibrationElectrometer_logEvent_SummaryState.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_SummaryState.vi"/>
+	<Item Name="calibrationElectrometer_issueCommand_startScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_startScan.vi"/>
+	<Item Name="calibrationElectrometer_issueCommand_startScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_startScanDt.vi"/>
+	<Item Name="calibrationElectrometer_issueCommand_startScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_startScanReachIntensity.vi"/>
+	<Item Name="calibrationElectrometer_issueCommand_stopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_stopScan.vi"/>
+	<Item Name="calibrationElectrometer_logEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_appliedSettingsMatchStart.vi"/>
+	<Item Name="calibrationElectrometer_logEvent_detailedState.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_detailedState.vi"/>
 	<Item Name="calibrationElectrometer_logEvent_digitalFilterChange.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_digitalFilterChange.vi"/>
+	<Item Name="calibrationElectrometer_logEvent_errorCode.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_errorCode.vi"/>
+	<Item Name="calibrationElectrometer_logEvent_heartbeat.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_heartbeat.vi"/>
+	<Item Name="calibrationElectrometer_logEvent_integrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_integrationTime.vi"/>
+	<Item Name="calibrationElectrometer_logEvent_intensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_intensity.vi"/>
+	<Item Name="calibrationElectrometer_logEvent_internalCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_internalCommand.vi"/>
+	<Item Name="calibrationElectrometer_logEvent_largeFileObjectAvailable.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_largeFileObjectAvailable.vi"/>
+	<Item Name="calibrationElectrometer_logEvent_loopTimeOutOfRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_loopTimeOutOfRange.vi"/>
 	<Item Name="calibrationElectrometer_logEvent_measureRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_measureRange.vi"/>
 	<Item Name="calibrationElectrometer_logEvent_measureType.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_measureType.vi"/>
-	<Item Name="calibrationElectrometer_monitorCommand_PerformZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_PerformZeroCalib.vi"/>
-	<Item Name="calibrationElectrometer_monitorCommand_Power.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_Power.vi"/>
-	<Item Name="calibrationElectrometer_monitorCommand_SetDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_SetDigitalFilter.vi"/>
-	<Item Name="calibrationElectrometer_monitorCommand_SetIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_SetIntegrationTime.vi"/>
-	<Item Name="calibrationElectrometer_monitorCommand_SetMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_SetMode.vi"/>
-	<Item Name="calibrationElectrometer_monitorCommand_SetRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_SetRange.vi"/>
-	<Item Name="calibrationElectrometer_monitorCommand_StartScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_StartScan.vi"/>
-	<Item Name="calibrationElectrometer_monitorCommand_StartScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_StartScanDt.vi"/>
-	<Item Name="calibrationElectrometer_monitorCommand_StartScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_StartScanReachIntensity.vi"/>
-	<Item Name="calibrationElectrometer_monitorCommand_StopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_StopScan.vi"/>
+	<Item Name="calibrationElectrometer_logEvent_readingOutOfLimit.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_readingOutOfLimit.vi"/>
+	<Item Name="calibrationElectrometer_logEvent_rejectedCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_rejectedCommand.vi"/>
+	<Item Name="calibrationElectrometer_logEvent_settingVersions.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_settingVersions.vi"/>
+	<Item Name="calibrationElectrometer_logEvent_settingsAppliedReadSets.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_settingsAppliedReadSets.vi"/>
+	<Item Name="calibrationElectrometer_logEvent_settingsAppliedSerConf.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_settingsAppliedSerConf.vi"/>
+	<Item Name="calibrationElectrometer_logEvent_summaryState.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_summaryState.vi"/>
 	<Item Name="calibrationElectrometer_monitorCommand_disable.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_disable.vi"/>
 	<Item Name="calibrationElectrometer_monitorCommand_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_enable.vi"/>
-	<Item Name="calibrationElectrometer_monitorCommand_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_exitControl.vi"/>
+	<Item Name="calibrationElectrometer_monitorCommand_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_performZeroCalib.vi"/>
+	<Item Name="calibrationElectrometer_monitorCommand_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_power.vi"/>
+	<Item Name="calibrationElectrometer_monitorCommand_setDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_setDigitalFilter.vi"/>
+	<Item Name="calibrationElectrometer_monitorCommand_setIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_setIntegrationTime.vi"/>
+	<Item Name="calibrationElectrometer_monitorCommand_setMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_setMode.vi"/>
+	<Item Name="calibrationElectrometer_monitorCommand_setRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_setRange.vi"/>
 	<Item Name="calibrationElectrometer_monitorCommand_standby.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_standby.vi"/>
 	<Item Name="calibrationElectrometer_monitorCommand_start.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_start.vi"/>
-	<Item Name="calibrationElectrometer_putSample_LoopTimems.vi" Type="VI" URL="../VIs/calibrationElectrometer_putSample_LoopTimems.vi"/>
-	<Item Name="calibrationElectrometer_putSample_Timestamp.vi" Type="VI" URL="../VIs/calibrationElectrometer_putSample_Timestamp.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_LoopTimems.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_LoopTimems.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_Timestamp.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_Timestamp.vi"/>
+	<Item Name="calibrationElectrometer_monitorCommand_startScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_startScan.vi"/>
+	<Item Name="calibrationElectrometer_monitorCommand_startScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_startScanDt.vi"/>
+	<Item Name="calibrationElectrometer_monitorCommand_startScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_startScanReachIntensity.vi"/>
+	<Item Name="calibrationElectrometer_monitorCommand_stopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_stopScan.vi"/>
+	<Item Name="calibrationElectrometer_putSample_loopTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_putSample_loopTime.vi"/>
+	<Item Name="calibrationElectrometer_putSample_timestamp.vi" Type="VI" URL="../VIs/calibrationElectrometer_putSample_timestamp.vi"/>
 	<Item Name="calibrationElectrometer_registerCallback_ackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_ackcmd.vi"/>
 	<Item Name="calibrationElectrometer_registerCallback_command_.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_PerformZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_PerformZeroCalib.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_PerformZeroCalibackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_PerformZeroCalibackcmd.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_Power.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_Power.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_Powerackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_Powerackcmd.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_SetDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_SetDigitalFilter.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_SetDigitalFilterackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_SetDigitalFilterackcmd.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_SetIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_SetIntegrationTime.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_SetIntegrationTimeackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_SetIntegrationTimeackcmd.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_SetMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_SetMode.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_SetModeackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_SetModeackcmd.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_SetRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_SetRange.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_SetRangeackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_SetRangeackcmd.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_StartScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_StartScan.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_StartScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_StartScanDt.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_StartScanDtackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_StartScanDtackcmd.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_StartScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_StartScanReachIntensity.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_StartScanReachIntensityackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_StartScanReachIntensityackcmd.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_StartScanackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_StartScanackcmd.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_StopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_StopScan.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_StopScanackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_StopScanackcmd.vi"/>
 	<Item Name="calibrationElectrometer_registerCallback_command_disable.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_disable.vi"/>
 	<Item Name="calibrationElectrometer_registerCallback_command_disableackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_disableackcmd.vi"/>
 	<Item Name="calibrationElectrometer_registerCallback_command_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_enable.vi"/>
 	<Item Name="calibrationElectrometer_registerCallback_command_enableackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_enableackcmd.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_exitControl.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_command_exitControlackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_exitControlackcmd.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_performZeroCalib.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_performZeroCalibackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_performZeroCalibackcmd.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_power.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_powerackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_powerackcmd.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_setDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_setDigitalFilter.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_setDigitalFilterackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_setDigitalFilterackcmd.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_setIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_setIntegrationTime.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_setIntegrationTimeackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_setIntegrationTimeackcmd.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_setMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_setMode.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_setModeackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_setModeackcmd.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_setRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_setRange.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_setRangeackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_setRangeackcmd.vi"/>
 	<Item Name="calibrationElectrometer_registerCallback_command_standby.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_standby.vi"/>
 	<Item Name="calibrationElectrometer_registerCallback_command_standbyackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_standbyackcmd.vi"/>
 	<Item Name="calibrationElectrometer_registerCallback_command_start.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_start.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_startScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_startScan.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_startScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_startScanDt.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_startScanDtackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_startScanDtackcmd.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_startScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_startScanReachIntensity.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_startScanReachIntensityackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_startScanReachIntensityackcmd.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_startScanackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_startScanackcmd.vi"/>
 	<Item Name="calibrationElectrometer_registerCallback_command_startackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_startackcmd.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_stopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_stopScan.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_stopScanackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_stopScanackcmd.vi"/>
 	<Item Name="calibrationElectrometer_registerCallback_logEvent_.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_logEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_AppliedSettingsMatchStart.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_logEvent_DetailedState.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_DetailedState.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_logEvent_ErrorCode.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_ErrorCode.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_logEvent_Heartbeat.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_Heartbeat.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_logEvent_IntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_IntegrationTime.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_logEvent_Intensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_Intensity.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_logEvent_IntensityReq.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_IntensityReq.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_logEvent_InternalCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_InternalCommand.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_logEvent_LargeFileObjectAvailable.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_LargeFileObjectAvailable.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_logEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_LoopTimeOutOfRange.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_logEvent_ReadingOutOfLimit.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_ReadingOutOfLimit.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_RejectedCommand.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_SettingVersions.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_logEvent_SettingsAppliedReadingSettings.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_SettingsAppliedReadingSettings.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_logEvent_SettingsAppliedSerialConfiguration.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_SettingsAppliedSerialConfiguration.vi"/>
-	<Item Name="calibrationElectrometer_registerCallback_logEvent_SummaryState.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_SummaryState.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_logEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_appliedSettingsMatchStart.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_logEvent_detailedState.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_detailedState.vi"/>
 	<Item Name="calibrationElectrometer_registerCallback_logEvent_digitalFilterChange.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_digitalFilterChange.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_logEvent_errorCode.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_errorCode.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_logEvent_heartbeat.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_heartbeat.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_logEvent_integrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_integrationTime.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_logEvent_intensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_intensity.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_logEvent_internalCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_internalCommand.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_logEvent_largeFileObjectAvailable.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_largeFileObjectAvailable.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_logEvent_loopTimeOutOfRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_loopTimeOutOfRange.vi"/>
 	<Item Name="calibrationElectrometer_registerCallback_logEvent_measureRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_measureRange.vi"/>
 	<Item Name="calibrationElectrometer_registerCallback_logEvent_measureType.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_measureType.vi"/>
-	<Item Name="calibrationElectrometer_salCommander_PerformZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_PerformZeroCalib.vi"/>
-	<Item Name="calibrationElectrometer_salCommander_Power.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_Power.vi"/>
-	<Item Name="calibrationElectrometer_salCommander_SetDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_SetDigitalFilter.vi"/>
-	<Item Name="calibrationElectrometer_salCommander_SetIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_SetIntegrationTime.vi"/>
-	<Item Name="calibrationElectrometer_salCommander_SetMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_SetMode.vi"/>
-	<Item Name="calibrationElectrometer_salCommander_SetRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_SetRange.vi"/>
-	<Item Name="calibrationElectrometer_salCommander_StartScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_StartScan.vi"/>
-	<Item Name="calibrationElectrometer_salCommander_StartScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_StartScanDt.vi"/>
-	<Item Name="calibrationElectrometer_salCommander_StartScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_StartScanReachIntensity.vi"/>
-	<Item Name="calibrationElectrometer_salCommander_StopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_StopScan.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_logEvent_readingOutOfLimit.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_readingOutOfLimit.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_logEvent_rejectedCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_rejectedCommand.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_logEvent_settingVersions.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_settingVersions.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_logEvent_settingsAppliedReadSets.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_settingsAppliedReadSets.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_logEvent_settingsAppliedSerConf.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_settingsAppliedSerConf.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_logEvent_summaryState.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_logEvent_summaryState.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_loopTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_loopTime.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_timestamp.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_timestamp.vi"/>
 	<Item Name="calibrationElectrometer_salCommander_disable.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_disable.vi"/>
 	<Item Name="calibrationElectrometer_salCommander_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_enable.vi"/>
-	<Item Name="calibrationElectrometer_salCommander_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_exitControl.vi"/>
+	<Item Name="calibrationElectrometer_salCommander_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_performZeroCalib.vi"/>
+	<Item Name="calibrationElectrometer_salCommander_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_power.vi"/>
+	<Item Name="calibrationElectrometer_salCommander_setDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_setDigitalFilter.vi"/>
+	<Item Name="calibrationElectrometer_salCommander_setIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_setIntegrationTime.vi"/>
+	<Item Name="calibrationElectrometer_salCommander_setMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_setMode.vi"/>
+	<Item Name="calibrationElectrometer_salCommander_setRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_setRange.vi"/>
 	<Item Name="calibrationElectrometer_salCommander_standby.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_standby.vi"/>
 	<Item Name="calibrationElectrometer_salCommander_start.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_start.vi"/>
-	<Item Name="calibrationElectrometer_salEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_AppliedSettingsMatchStart.vi"/>
-	<Item Name="calibrationElectrometer_salEvent_DetailedState.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_DetailedState.vi"/>
-	<Item Name="calibrationElectrometer_salEvent_ErrorCode.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_ErrorCode.vi"/>
-	<Item Name="calibrationElectrometer_salEvent_Heartbeat.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_Heartbeat.vi"/>
-	<Item Name="calibrationElectrometer_salEvent_IntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_IntegrationTime.vi"/>
-	<Item Name="calibrationElectrometer_salEvent_Intensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_Intensity.vi"/>
-	<Item Name="calibrationElectrometer_salEvent_IntensityReq.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_IntensityReq.vi"/>
-	<Item Name="calibrationElectrometer_salEvent_InternalCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_InternalCommand.vi"/>
-	<Item Name="calibrationElectrometer_salEvent_LargeFileObjectAvailable.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_LargeFileObjectAvailable.vi"/>
-	<Item Name="calibrationElectrometer_salEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_LoopTimeOutOfRange.vi"/>
-	<Item Name="calibrationElectrometer_salEvent_ReadingOutOfLimit.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_ReadingOutOfLimit.vi"/>
-	<Item Name="calibrationElectrometer_salEvent_RejectedCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_RejectedCommand.vi"/>
-	<Item Name="calibrationElectrometer_salEvent_SettingVersions.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_SettingVersions.vi"/>
-	<Item Name="calibrationElectrometer_salEvent_SettingsAppliedReadingSettings.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_SettingsAppliedReadingSettings.vi"/>
-	<Item Name="calibrationElectrometer_salEvent_SettingsAppliedSerialConfiguration.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_SettingsAppliedSerialConfiguration.vi"/>
-	<Item Name="calibrationElectrometer_salEvent_SummaryState.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_SummaryState.vi"/>
+	<Item Name="calibrationElectrometer_salCommander_startScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_startScan.vi"/>
+	<Item Name="calibrationElectrometer_salCommander_startScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_startScanDt.vi"/>
+	<Item Name="calibrationElectrometer_salCommander_startScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_startScanReachIntensity.vi"/>
+	<Item Name="calibrationElectrometer_salCommander_stopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_stopScan.vi"/>
+	<Item Name="calibrationElectrometer_salEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_appliedSettingsMatchStart.vi"/>
+	<Item Name="calibrationElectrometer_salEvent_detailedState.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_detailedState.vi"/>
 	<Item Name="calibrationElectrometer_salEvent_digitalFilterChange.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_digitalFilterChange.vi"/>
+	<Item Name="calibrationElectrometer_salEvent_errorCode.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_errorCode.vi"/>
+	<Item Name="calibrationElectrometer_salEvent_heartbeat.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_heartbeat.vi"/>
+	<Item Name="calibrationElectrometer_salEvent_integrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_integrationTime.vi"/>
+	<Item Name="calibrationElectrometer_salEvent_intensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_intensity.vi"/>
+	<Item Name="calibrationElectrometer_salEvent_internalCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_internalCommand.vi"/>
+	<Item Name="calibrationElectrometer_salEvent_largeFileObjectAvailable.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_largeFileObjectAvailable.vi"/>
+	<Item Name="calibrationElectrometer_salEvent_loopTimeOutOfRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_loopTimeOutOfRange.vi"/>
 	<Item Name="calibrationElectrometer_salEvent_measureRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_measureRange.vi"/>
 	<Item Name="calibrationElectrometer_salEvent_measureType.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_measureType.vi"/>
-	<Item Name="calibrationElectrometer_salProcessor_PerformZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_PerformZeroCalib.vi"/>
-	<Item Name="calibrationElectrometer_salProcessor_Power.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_Power.vi"/>
-	<Item Name="calibrationElectrometer_salProcessor_SetDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_SetDigitalFilter.vi"/>
-	<Item Name="calibrationElectrometer_salProcessor_SetIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_SetIntegrationTime.vi"/>
-	<Item Name="calibrationElectrometer_salProcessor_SetMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_SetMode.vi"/>
-	<Item Name="calibrationElectrometer_salProcessor_SetRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_SetRange.vi"/>
-	<Item Name="calibrationElectrometer_salProcessor_StartScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_StartScan.vi"/>
-	<Item Name="calibrationElectrometer_salProcessor_StartScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_StartScanDt.vi"/>
-	<Item Name="calibrationElectrometer_salProcessor_StartScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_StartScanReachIntensity.vi"/>
-	<Item Name="calibrationElectrometer_salProcessor_StopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_StopScan.vi"/>
+	<Item Name="calibrationElectrometer_salEvent_readingOutOfLimit.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_readingOutOfLimit.vi"/>
+	<Item Name="calibrationElectrometer_salEvent_rejectedCommand.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_rejectedCommand.vi"/>
+	<Item Name="calibrationElectrometer_salEvent_settingVersions.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_settingVersions.vi"/>
+	<Item Name="calibrationElectrometer_salEvent_settingsAppliedReadSets.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_settingsAppliedReadSets.vi"/>
+	<Item Name="calibrationElectrometer_salEvent_settingsAppliedSerConf.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_settingsAppliedSerConf.vi"/>
+	<Item Name="calibrationElectrometer_salEvent_summaryState.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_summaryState.vi"/>
 	<Item Name="calibrationElectrometer_salProcessor_disable.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_disable.vi"/>
 	<Item Name="calibrationElectrometer_salProcessor_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_enable.vi"/>
-	<Item Name="calibrationElectrometer_salProcessor_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_exitControl.vi"/>
+	<Item Name="calibrationElectrometer_salProcessor_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_performZeroCalib.vi"/>
+	<Item Name="calibrationElectrometer_salProcessor_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_power.vi"/>
+	<Item Name="calibrationElectrometer_salProcessor_setDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_setDigitalFilter.vi"/>
+	<Item Name="calibrationElectrometer_salProcessor_setIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_setIntegrationTime.vi"/>
+	<Item Name="calibrationElectrometer_salProcessor_setMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_setMode.vi"/>
+	<Item Name="calibrationElectrometer_salProcessor_setRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_setRange.vi"/>
 	<Item Name="calibrationElectrometer_salProcessor_standby.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_standby.vi"/>
 	<Item Name="calibrationElectrometer_salProcessor_start.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_start.vi"/>
-	<Item Name="calibrationElectrometer_salTelemetrySub_LoopTimems.vi" Type="VI" URL="../VIs/calibrationElectrometer_salTelemetrySub_LoopTimems.vi"/>
-	<Item Name="calibrationElectrometer_salTelemetrySub_Timestamp.vi" Type="VI" URL="../VIs/calibrationElectrometer_salTelemetrySub_Timestamp.vi"/>
-	<Item Name="calibrationElectrometer_waitForCompletion_PerformZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_PerformZeroCalib.vi"/>
-	<Item Name="calibrationElectrometer_waitForCompletion_Power.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_Power.vi"/>
-	<Item Name="calibrationElectrometer_waitForCompletion_SetDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_SetDigitalFilter.vi"/>
-	<Item Name="calibrationElectrometer_waitForCompletion_SetIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_SetIntegrationTime.vi"/>
-	<Item Name="calibrationElectrometer_waitForCompletion_SetMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_SetMode.vi"/>
-	<Item Name="calibrationElectrometer_waitForCompletion_SetRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_SetRange.vi"/>
-	<Item Name="calibrationElectrometer_waitForCompletion_StartScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_StartScan.vi"/>
-	<Item Name="calibrationElectrometer_waitForCompletion_StartScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_StartScanDt.vi"/>
-	<Item Name="calibrationElectrometer_waitForCompletion_StartScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_StartScanReachIntensity.vi"/>
-	<Item Name="calibrationElectrometer_waitForCompletion_StopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_StopScan.vi"/>
+	<Item Name="calibrationElectrometer_salProcessor_startScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_startScan.vi"/>
+	<Item Name="calibrationElectrometer_salProcessor_startScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_startScanDt.vi"/>
+	<Item Name="calibrationElectrometer_salProcessor_startScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_startScanReachIntensity.vi"/>
+	<Item Name="calibrationElectrometer_salProcessor_stopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_stopScan.vi"/>
+	<Item Name="calibrationElectrometer_salTelemetrySub_loopTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_salTelemetrySub_loopTime.vi"/>
+	<Item Name="calibrationElectrometer_salTelemetrySub_timestamp.vi" Type="VI" URL="../VIs/calibrationElectrometer_salTelemetrySub_timestamp.vi"/>
 	<Item Name="calibrationElectrometer_waitForCompletion_disable.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_disable.vi"/>
 	<Item Name="calibrationElectrometer_waitForCompletion_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_enable.vi"/>
-	<Item Name="calibrationElectrometer_waitForCompletion_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_exitControl.vi"/>
+	<Item Name="calibrationElectrometer_waitForCompletion_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_performZeroCalib.vi"/>
+	<Item Name="calibrationElectrometer_waitForCompletion_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_power.vi"/>
+	<Item Name="calibrationElectrometer_waitForCompletion_setDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_setDigitalFilter.vi"/>
+	<Item Name="calibrationElectrometer_waitForCompletion_setIntegrationTime.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_setIntegrationTime.vi"/>
+	<Item Name="calibrationElectrometer_waitForCompletion_setMode.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_setMode.vi"/>
+	<Item Name="calibrationElectrometer_waitForCompletion_setRange.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_setRange.vi"/>
 	<Item Name="calibrationElectrometer_waitForCompletion_standby.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_standby.vi"/>
 	<Item Name="calibrationElectrometer_waitForCompletion_start.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_start.vi"/>
+	<Item Name="calibrationElectrometer_waitForCompletion_startScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_startScan.vi"/>
+	<Item Name="calibrationElectrometer_waitForCompletion_startScanDt.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_startScanDt.vi"/>
+	<Item Name="calibrationElectrometer_waitForCompletion_startScanReachIntensity.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_startScanReachIntensity.vi"/>
+	<Item Name="calibrationElectrometer_waitForCompletion_stopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_stopScan.vi"/>
 	<Item Name="calibrationElectrometershminitFlags.vi" Type="VI" URL="../VIs/calibrationElectrometershminitFlags.vi"/>
 </Library>
