@@ -11,6 +11,7 @@
 		<Item Name="command.ctl" Type="VI" URL="../DataTypes/command.ctl"/>
 		<Item Name="command_disable.ctl" Type="VI" URL="../DataTypes/command_disable.ctl"/>
 		<Item Name="command_enable.ctl" Type="VI" URL="../DataTypes/command_enable.ctl"/>
+		<Item Name="command_exitControl.ctl" Type="VI" URL="../DataTypes/command_exitControl.ctl"/>
 		<Item Name="command_performZeroCalib.ctl" Type="VI" URL="../DataTypes/command_performZeroCalib.ctl"/>
 		<Item Name="command_power.ctl" Type="VI" URL="../DataTypes/command_power.ctl"/>
 		<Item Name="command_setDigitalFilter.ctl" Type="VI" URL="../DataTypes/command_setDigitalFilter.ctl"/>
@@ -53,6 +54,7 @@
 	<Item Name="calibrationElectrometer_Release.vi" Type="VI" URL="../VIs/calibrationElectrometer_Release.vi"/>
 	<Item Name="calibrationElectrometer_acceptCommand_disable.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_disable.vi"/>
 	<Item Name="calibrationElectrometer_acceptCommand_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_enable.vi"/>
+	<Item Name="calibrationElectrometer_acceptCommand_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_exitControl.vi"/>
 	<Item Name="calibrationElectrometer_acceptCommand_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_performZeroCalib.vi"/>
 	<Item Name="calibrationElectrometer_acceptCommand_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_power.vi"/>
 	<Item Name="calibrationElectrometer_acceptCommand_setDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_setDigitalFilter.vi"/>
@@ -67,6 +69,7 @@
 	<Item Name="calibrationElectrometer_acceptCommand_stopScan.vi" Type="VI" URL="../VIs/calibrationElectrometer_acceptCommand_stopScan.vi"/>
 	<Item Name="calibrationElectrometer_ackCommand_disable.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_disable.vi"/>
 	<Item Name="calibrationElectrometer_ackCommand_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_enable.vi"/>
+	<Item Name="calibrationElectrometer_ackCommand_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_exitControl.vi"/>
 	<Item Name="calibrationElectrometer_ackCommand_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_performZeroCalib.vi"/>
 	<Item Name="calibrationElectrometer_ackCommand_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_power.vi"/>
 	<Item Name="calibrationElectrometer_ackCommand_setDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_ackCommand_setDigitalFilter.vi"/>
@@ -85,6 +88,8 @@
 	<Item Name="calibrationElectrometer_cancelCallback_command_disableackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_disableackcmd.vi"/>
 	<Item Name="calibrationElectrometer_cancelCallback_command_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_enable.vi"/>
 	<Item Name="calibrationElectrometer_cancelCallback_command_enableackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_enableackcmd.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_exitControl.vi"/>
+	<Item Name="calibrationElectrometer_cancelCallback_command_exitControlackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_exitControlackcmd.vi"/>
 	<Item Name="calibrationElectrometer_cancelCallback_command_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_performZeroCalib.vi"/>
 	<Item Name="calibrationElectrometer_cancelCallback_command_performZeroCalibackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_performZeroCalibackcmd.vi"/>
 	<Item Name="calibrationElectrometer_cancelCallback_command_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_cancelCallback_command_power.vi"/>
@@ -172,6 +177,7 @@
 	<Item Name="calibrationElectrometer_getNextSample_timestamp.vi" Type="VI" URL="../VIs/calibrationElectrometer_getNextSample_timestamp.vi"/>
 	<Item Name="calibrationElectrometer_getResponse_disable.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_disable.vi"/>
 	<Item Name="calibrationElectrometer_getResponse_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_enable.vi"/>
+	<Item Name="calibrationElectrometer_getResponse_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_exitControl.vi"/>
 	<Item Name="calibrationElectrometer_getResponse_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_performZeroCalib.vi"/>
 	<Item Name="calibrationElectrometer_getResponse_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_power.vi"/>
 	<Item Name="calibrationElectrometer_getResponse_setDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_getResponse_setDigitalFilter.vi"/>
@@ -188,6 +194,7 @@
 	<Item Name="calibrationElectrometer_getSample_timestamp.vi" Type="VI" URL="../VIs/calibrationElectrometer_getSample_timestamp.vi"/>
 	<Item Name="calibrationElectrometer_issueCommand_disable.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_disable.vi"/>
 	<Item Name="calibrationElectrometer_issueCommand_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_enable.vi"/>
+	<Item Name="calibrationElectrometer_issueCommand_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_exitControl.vi"/>
 	<Item Name="calibrationElectrometer_issueCommand_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_performZeroCalib.vi"/>
 	<Item Name="calibrationElectrometer_issueCommand_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_power.vi"/>
 	<Item Name="calibrationElectrometer_issueCommand_setDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_issueCommand_setDigitalFilter.vi"/>
@@ -220,6 +227,7 @@
 	<Item Name="calibrationElectrometer_logEvent_summaryState.vi" Type="VI" URL="../VIs/calibrationElectrometer_logEvent_summaryState.vi"/>
 	<Item Name="calibrationElectrometer_monitorCommand_disable.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_disable.vi"/>
 	<Item Name="calibrationElectrometer_monitorCommand_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_enable.vi"/>
+	<Item Name="calibrationElectrometer_monitorCommand_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_exitControl.vi"/>
 	<Item Name="calibrationElectrometer_monitorCommand_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_performZeroCalib.vi"/>
 	<Item Name="calibrationElectrometer_monitorCommand_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_power.vi"/>
 	<Item Name="calibrationElectrometer_monitorCommand_setDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_monitorCommand_setDigitalFilter.vi"/>
@@ -240,6 +248,8 @@
 	<Item Name="calibrationElectrometer_registerCallback_command_disableackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_disableackcmd.vi"/>
 	<Item Name="calibrationElectrometer_registerCallback_command_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_enable.vi"/>
 	<Item Name="calibrationElectrometer_registerCallback_command_enableackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_enableackcmd.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_exitControl.vi"/>
+	<Item Name="calibrationElectrometer_registerCallback_command_exitControlackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_exitControlackcmd.vi"/>
 	<Item Name="calibrationElectrometer_registerCallback_command_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_performZeroCalib.vi"/>
 	<Item Name="calibrationElectrometer_registerCallback_command_performZeroCalibackcmd.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_performZeroCalibackcmd.vi"/>
 	<Item Name="calibrationElectrometer_registerCallback_command_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_command_power.vi"/>
@@ -287,6 +297,7 @@
 	<Item Name="calibrationElectrometer_registerCallback_timestamp.vi" Type="VI" URL="../VIs/calibrationElectrometer_registerCallback_timestamp.vi"/>
 	<Item Name="calibrationElectrometer_salCommander_disable.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_disable.vi"/>
 	<Item Name="calibrationElectrometer_salCommander_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_enable.vi"/>
+	<Item Name="calibrationElectrometer_salCommander_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_exitControl.vi"/>
 	<Item Name="calibrationElectrometer_salCommander_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_performZeroCalib.vi"/>
 	<Item Name="calibrationElectrometer_salCommander_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_power.vi"/>
 	<Item Name="calibrationElectrometer_salCommander_setDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_salCommander_setDigitalFilter.vi"/>
@@ -319,6 +330,7 @@
 	<Item Name="calibrationElectrometer_salEvent_summaryState.vi" Type="VI" URL="../VIs/calibrationElectrometer_salEvent_summaryState.vi"/>
 	<Item Name="calibrationElectrometer_salProcessor_disable.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_disable.vi"/>
 	<Item Name="calibrationElectrometer_salProcessor_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_enable.vi"/>
+	<Item Name="calibrationElectrometer_salProcessor_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_exitControl.vi"/>
 	<Item Name="calibrationElectrometer_salProcessor_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_performZeroCalib.vi"/>
 	<Item Name="calibrationElectrometer_salProcessor_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_power.vi"/>
 	<Item Name="calibrationElectrometer_salProcessor_setDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_salProcessor_setDigitalFilter.vi"/>
@@ -335,6 +347,7 @@
 	<Item Name="calibrationElectrometer_salTelemetrySub_timestamp.vi" Type="VI" URL="../VIs/calibrationElectrometer_salTelemetrySub_timestamp.vi"/>
 	<Item Name="calibrationElectrometer_waitForCompletion_disable.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_disable.vi"/>
 	<Item Name="calibrationElectrometer_waitForCompletion_enable.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_enable.vi"/>
+	<Item Name="calibrationElectrometer_waitForCompletion_exitControl.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_exitControl.vi"/>
 	<Item Name="calibrationElectrometer_waitForCompletion_performZeroCalib.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_performZeroCalib.vi"/>
 	<Item Name="calibrationElectrometer_waitForCompletion_power.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_power.vi"/>
 	<Item Name="calibrationElectrometer_waitForCompletion_setDigitalFilter.vi" Type="VI" URL="../VIs/calibrationElectrometer_waitForCompletion_setDigitalFilter.vi"/>
